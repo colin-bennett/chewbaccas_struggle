@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 
 class FriendList {
   constructor() {
@@ -29,3 +29,9 @@ friendList.add("Mitch", 3, 6, 4);
 friendList.friends.sort((a, b) => {
   return b.friendScore - a.friendScore;
 });
+
+console.log(
+  friendList.friends.sort((a, b) => {
+    return b.friendScore - a.friendScore;
+  })
+);
